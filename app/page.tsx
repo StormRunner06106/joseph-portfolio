@@ -253,13 +253,15 @@ export default function Home() {
                 title={skill}
               >
                 <div className="w-12 h-12 mb-2 flex items-center justify-center">
-                  <img
+                  <Image
                     src={
                       skillIconUrls[skill] ||
                       "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg"
                     }
                     alt={skill}
-                    className="w-full h-full object-contain"
+                    width={48}
+                    height={48}
+                    className="object-contain"
                   />
                 </div>
                 <span className="text-xs text-white text-center">{skill}</span>
@@ -299,11 +301,11 @@ export default function Home() {
           <h2 className="text-4xl font-display mb-6 text-left">Contact</h2>
           <div className="max-w-2xl">
             <p className="text-2xl mb-6 normal-case opacity-90">
-              Let's work together and create something amazing!
+              Let&apos;s work together and create something amazing!
             </p>
             <p className="text-lg mb-8 normal-case opacity-75">
-              I'm always open to discussing new projects, creative ideas, or
-              opportunities to be part of your vision.
+              I&apos;m always open to discussing new projects, creative ideas,
+              or opportunities to be part of your vision.
             </p>
             <div className="space-y-4">
               <Button
