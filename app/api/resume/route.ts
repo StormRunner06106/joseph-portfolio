@@ -22,7 +22,9 @@ export async function GET() {
         "Content-Type":
           "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "Content-Disposition": 'attachment; filename="resume.docx"',
-        "Cache-Control": "public, max-age=31536000", // Cache for 1 year
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        Pragma: "no-cache",
+        Expires: "0",
       },
     });
 
