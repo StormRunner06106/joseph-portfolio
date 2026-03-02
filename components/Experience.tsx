@@ -35,9 +35,9 @@ const Experience = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ root: scrollRef, once: true, amount: 0.8 }}
-            className="relative flex items-center justify-between md:justify-normal md:even:flex-row-reverse group is-active"
+            className="relative flex items-start md:items-center justify-between md:justify-normal md:even:flex-row-reverse group is-active"
           >
-            <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#e5e7eb] bg-transparent group-[.is-active]:bg-[var(--primary-color)] text-[var(--foreground)] group-[.is-active]:text-[var(--foreground)] shadow shrink-0 md:order-1 md:group-even:-translate-x-1/2 md:group-odd:translate-x-1/2">
+            <div className="flex items-center justify-center w-10 h-10 rounded-full border border-[#e5e7eb] bg-transparent group-[.is-active]:bg-[var(--primary-color)] text-[var(--foreground)] group-[.is-active]:text-[var(--foreground)] shadow shrink-0 md:order-1 md:group-even:-translate-x-1/2 md:group-odd:translate-x-1/2 mt-2 md:mt-0">
               <Icon
                 className={`w-[60%] ${theme === "dark" ? "text-black" : "text-white"}`}
               />
