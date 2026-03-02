@@ -128,9 +128,9 @@ export default function Home() {
             <Image
               src="/suit1.png"
               alt={name || "Profile"}
-              width={120}
-              height={120}
-              className="rounded-full object-cover md:w-[150px] md:h-[150px]"
+              width={300}
+              height={300}
+              className="rounded-full object-cover w-[120px] h-[120px] md:w-[150px] md:h-[150px]"
               priority
             />
           </div>
