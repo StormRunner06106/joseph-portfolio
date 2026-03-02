@@ -9,7 +9,7 @@ export async function GET() {
       process.cwd(),
       "private",
       "documents",
-      "resume.docx",
+      "resume.pdf",
     );
 
     // Read the file
@@ -19,9 +19,8 @@ export async function GET() {
     const response = new NextResponse(new Uint8Array(fileBuffer), {
       status: 200,
       headers: {
-        "Content-Type":
-          "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-        "Content-Disposition": 'attachment; filename="resume.docx"',
+        "Content-Type": "application/pdf",
+        "Content-Disposition": 'attachment; filename="resume.pdf"',
         "Cache-Control": "no-cache, no-store, must-revalidate",
         Pragma: "no-cache",
         Expires: "0",

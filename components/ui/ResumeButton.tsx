@@ -33,7 +33,7 @@ const ResumeButton = ({ resumeUrl, className }: ResumeButtonProps) => {
       // Create a download link and trigger it
       const link = document.createElement("a");
       link.href = blobUrl;
-      link.download = "resume.docx";
+      link.download = "resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

@@ -141,8 +141,8 @@ const experience = [
 ];
 
 const contact = {
-  email: "shield19900322@outlook.com",
-  phone: "+1 (818) 538-4661",
+  email: "shieldjosephalan@gmail.com",
+  phone: "+1 (916) 672-0983",
 };
 
 const education = [
