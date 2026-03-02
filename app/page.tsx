@@ -103,7 +103,6 @@ export default function Home() {
   const aboutRef = useRef<HTMLDivElement>(null);
   const experienceRef = useRef<HTMLDivElement>(null);
   const educationRef = useRef<HTMLDivElement>(null);
-  const contactRef = useRef<HTMLDivElement>(null);
   const [copied, setCopied] = useState(false);
 
   const scrollToSection = (ref: React.RefObject<HTMLDivElement>) => {
@@ -218,12 +217,6 @@ export default function Home() {
             >
               education
             </button>
-            <button
-              onClick={() => scrollToSection(contactRef)}
-              className="pl-8 py-2 text-lg capitalize rounded text-left text-gray-400 hover:text-white transition-all duration-300 ease-in-out"
-            >
-              contact
-            </button>
           </nav>
         </div>
 
@@ -296,28 +289,21 @@ export default function Home() {
           ))}
         </section>
 
-        {/* Contact Section */}
-        <section ref={contactRef}>
-          <h2 className="text-4xl font-display mb-6 text-left">Contact</h2>
-          <div className="max-w-2xl">
-            <p className="text-2xl mb-6 normal-case opacity-90">
-              Let&apos;s work together and create something amazing!
+        {/* Let's Work Together Section */}
+        <section className="mb-20">
+          <div
+            className="max-w-3xl mx-auto text-center py-16 px-8 rounded-lg"
+            style={{ backgroundColor: "rgb(8, 8, 9)" }}
+          >
+            <h2 className="text-4xl font-display mb-6">
+              Let&apos;s Work Together
+            </h2>
+            <p className="text-xl mb-4 opacity-90">
+              I&apos;m open to discussing new projects and creative ideas.
             </p>
-            <p className="text-lg mb-8 normal-case opacity-75">
-              I&apos;m always open to discussing new projects, creative ideas,
-              or opportunities to be part of your vision.
+            <p className="text-lg opacity-75">
+              Ready to make your idea and vision into reality.
             </p>
-            <div className="space-y-4">
-              <Button
-                variant="contained"
-                color="primary"
-                size="large"
-                href={`mailto:${contact.email}`}
-                className="normal-case text-lg"
-              >
-                Email: {contact.email}
-              </Button>
-            </div>
           </div>
         </section>
       </div>

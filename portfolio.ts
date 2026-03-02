@@ -4,7 +4,7 @@ const header = {
 };
 
 const about = {
-  name: "Joseph A",
+  name: "Shield A",
   location: "Austin, TX",
   role: "Dynamic Full Stack Developer / AI Developer",
   description: `Dynamic Full Stack Developer / AI Developer with over 11 years of experience in designing, developing, and optimizing scalable web applications serving more than 1 million users across diverse industries. Expertise in React.js, Angular, Node.js, and Python enables the delivery of high-performance solutions that enhance system efficiency by up to 40%. A strong focus on building secure architectures and improving code quality ensures maintainability while leading cross-functional teams to complete projects 30% faster using agile methodologies. Committed to driving innovation and continuous improvement, consistently delivering exceptional user experiences through robust software solutions tailored to client needs.`,
