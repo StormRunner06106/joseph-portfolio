@@ -78,7 +78,7 @@ const experience = [
     stack: ["React", "TypeScript", "PostgreSQL", "Python", "TensorFlow", "AWS"],
   },
   {
-    name: "DFPS JOBS Private Limited",
+    name: "DFPS",
     year: "10/2023 - 09/2024",
     description:
       "Orchestrated the creation of scalable microservices utilizing Spring Boot, ASP.NET Core, and Hibernate, curtailing API response times by 35% and optimized system efficiency. Developed responsive web interfaces with React.js, Redux, and TypeScript, enhancing user experience and resulting in a 28% increase in conversion rates. Revamped RESTful APIs using Python and optimized SQL/T-SQL queries to elevate data infrastructure, consequently slashing database latency by 36% and improving application stability for end-users. Implemented a secure CI/CD pipeline using Maven, Jenkins, and GitHub Actions, automating software delivery and reducing deployment time by 30%. Supervised the implementation of automated testing frameworks and integrated code quality checks into the CI/CD pipeline, cutting Sev1/P1 incidents by 2 per quarter. Spearheaded the modernization of 10 legacy applications by migrating to a microservices architecture.",
