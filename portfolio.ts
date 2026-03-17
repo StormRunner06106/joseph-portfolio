@@ -5,12 +5,12 @@ const header = {
 
 const about = {
   name: "Joseph Shield Alan",
-  location: "San Diego, CA",
+  location: "Austin, TX",
   role: "Senior Software Engineer",
   description: `Senior Software Engineer with 11 years of experience building AI-driven, cloud-native back-end systems using Python/FastAPI, TypeScript/Node.js, and containerized microservices. Demonstrated expertise in integrating LLM models, designing RESTful APIs, and optimizing data pipelines to accelerate time-to-insight. Proven mentor and collaborative contributor with a track record of boosting customer retention and streamlining deployments.`,
   resume: "/api/resume",
   social: {
-    linkedin: "https://www.linkedin.com/in/shield-j-alan",
+    linkedin: "https://www.linkedin.com/in/joseph-alan-s",
     github: "https://github.com/happy-code-vector",
   },
 };
