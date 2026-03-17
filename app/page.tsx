@@ -35,6 +35,8 @@ const skillIconUrls: { [key: string]: string } = {
   HTML5:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
   CSS: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  Golang:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
   // Framework
   React:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
@@ -62,6 +64,8 @@ const skillIconUrls: { [key: string]: string } = {
   SQL: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
   NoSQL:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+  "Vector Databases":
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
   // Cloud & Tools
   AWS: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
   Kubernetes:
@@ -72,6 +76,13 @@ const skillIconUrls: { [key: string]: string } = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg",
   "Apache Kafka":
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg",
+  GCP: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+  Grafana:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg",
+  Azure:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
+  Docker:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   // Mobile Development
   Android:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
@@ -89,12 +100,16 @@ const skillIconUrls: { [key: string]: string } = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
   PyTorch:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
+  LangChain:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
   // Other
   "Design Patterns":
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg",
   Git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   Scripting:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg",
+  Microservices:
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
 };
 
 export default function Home() {
