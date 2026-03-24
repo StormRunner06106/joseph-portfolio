@@ -151,7 +151,7 @@ const experience = [
     stack: ["Spring Boot", "IoT", "Third-party APIs"],
   },
   {
-    name: "HPL Global Services Pvt.Ltd",
+    name: "HCL Global Systems Inc",
     year: "Jul 2014 - Dec 2014",
     description:
       "Architected front-end modules utilizing Angular, enhancing test coverage by 20% through implementation of unit and integration tests, and minimizing regressions in subsequent releases. Championed code quality initiatives, slashing defect density by 25% in software solutions delivered to 6 international clients, improving overall client satisfaction and system stability.",
